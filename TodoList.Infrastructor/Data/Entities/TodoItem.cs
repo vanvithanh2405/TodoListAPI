@@ -1,4 +1,4 @@
-﻿namespace TodoList.Infrastructure.Data
+﻿namespace TodoList.Infrastructure.Data.Entities
 {
     public class TodoItem
     {

@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36408.4 d17.14
+VisualStudioVersion = 17.14.36408.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoList.API", "TodoList\TodoList.API.csproj", "{E5E96E5F-66FA-4F1C-B0A0-308D2F78FC87}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoList.Infrastructure", "TodoList.Infrastructor\TodoList.Infrastructure.csproj", "{10CA107C-6B6A-46BC-8508-542C641DD825}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoList.Core", "TodoList.Core\TodoList.Core.csproj", "{ECFB15A2-7D9C-490C-B3E4-FBF6D0B494D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{10CA107C-6B6A-46BC-8508-542C641DD825}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10CA107C-6B6A-46BC-8508-542C641DD825}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10CA107C-6B6A-46BC-8508-542C641DD825}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECFB15A2-7D9C-490C-B3E4-FBF6D0B494D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECFB15A2-7D9C-490C-B3E4-FBF6D0B494D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECFB15A2-7D9C-490C-B3E4-FBF6D0B494D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECFB15A2-7D9C-490C-B3E4-FBF6D0B494D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
