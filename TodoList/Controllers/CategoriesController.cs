@@ -1,7 +1,5 @@
 ﻿using Asenda.DHP.API.Controllers;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using System.ComponentModel;
 using TodoList.Core.Interfaces;
 using TodoList.Core.Models.Categories;
 
