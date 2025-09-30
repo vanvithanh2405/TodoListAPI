@@ -19,7 +19,8 @@ namespace TodoList.API.Controllers
         [HttpPost]
         public IActionResult CreateCategory(CategoryRequest request)
         {
-            return null;
+            var result = _categoryServices.CreateCategory(request);
+            return result != null ? Ok(result) : NotFound();
         }
 
     }
